@@ -39,11 +39,11 @@ const Contact = () => {
               I'm always open to discussing new opportunities, collaborations, or interesting projects. Feel free to reach out!
             </p>
             <div className="space-y-4">
-              <a href="mailto:khalida.thummala@gmail.com" className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors group">
+              <a href="mailto:khalidathummala38@gmail.com" className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors group">
                 <div className="p-2 rounded-lg bg-primary/10 text-primary group-hover:bg-primary/20 transition-colors">
                   <Mail size={18} />
                 </div>
-                <span className="font-mono text-sm">khalida.thummala@gmail.com</span>
+                <span className="font-mono text-sm">khalidathummala38@gmail.com</span>
               </a>
               <a href="https://linkedin.com/in/khalida-thummala" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors group">
                 <div className="p-2 rounded-lg bg-primary/10 text-primary group-hover:bg-primary/20 transition-colors">
