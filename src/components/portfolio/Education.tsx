@@ -14,14 +14,14 @@ const education = [
     degree: "Intermediate (MPC)",
     institution: "Board of Intermediate Education, AP",
     period: "2021 – 2023",
-    grade: "",
+    grade: "96.6%",
   },
   {
     icon: BookOpen,
     degree: "SSC (10th Standard)",
     institution: "Board of Secondary Education, AP",
     period: "2021",
-    grade: "",
+    grade: "CGPA: 10",
   },
 ];
 
