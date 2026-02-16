@@ -1,15 +1,14 @@
 import { motion } from "framer-motion";
-import { Shield, Sparkles, GraduationCap } from "lucide-react";
+import { Award, Trophy, Medal } from "lucide-react";
 
-const certs = [
-  { icon: Shield, title: "Amazon SDE Internship Certificate" },
-  { icon: Sparkles, title: "Amazon Future Engineer Bootcamp — Java & DSA" },
-  { icon: GraduationCap, title: "Generative AI with AWS — Udacity" },
+const achievements = [
+  { icon: Trophy, title: "Amazon Scholarship Recipient (2023)" },
+  { icon: Medal, title: "NCC 'B' Certificate" },
 ];
 
-const Certifications = () => {
+const Achievements = () => {
   return (
-    <section id="certifications" className="border-t border-border">
+    <section id="achievements" className="border-t border-border">
       <div className="section-container">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -17,12 +16,12 @@ const Certifications = () => {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
-          <p className="section-label">Certifications</p>
-          <h2 className="section-title">Professional <span className="text-gradient">credentials</span></h2>
+          <p className="section-label">Achievements</p>
+          <h2 className="section-title">Milestones <span className="text-gradient">earned</span></h2>
         </motion.div>
 
         <div className="space-y-3">
-          {certs.map((cert, i) => (
+          {achievements.map((item, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, x: -15 }}
@@ -32,9 +31,9 @@ const Certifications = () => {
               className="glass-card flex items-center gap-4 py-4"
             >
               <div className="p-2 rounded-lg bg-primary/10 text-primary">
-                <cert.icon size={18} />
+                <item.icon size={18} />
               </div>
-              <p className="text-foreground font-medium">{cert.title}</p>
+              <p className="text-foreground font-medium">{item.title}</p>
             </motion.div>
           ))}
         </div>
@@ -43,4 +42,4 @@ const Certifications = () => {
   );
 };
 
-export default Certifications;
+export default Achievements;
