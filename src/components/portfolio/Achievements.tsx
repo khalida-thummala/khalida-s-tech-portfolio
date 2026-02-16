@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
-import { Award, Trophy, Medal } from "lucide-react";
+import { Award, Trophy, Medal, Briefcase } from "lucide-react";
 
 const achievements = [
+  { icon: Briefcase, title: "Amazon SDE Intern (Summer 2025) – Worked on ESGS–Triton integration improving testing speed and reducing dependencies" },
   { icon: Trophy, title: "Amazon Scholarship Recipient (2023)" },
   { icon: Medal, title: "NCC 'B' Certificate" },
 ];
